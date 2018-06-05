@@ -10,8 +10,12 @@ function correr(){
     return Math.round(Math.random()*(max - min) + min)
 }
 let totalKms = 0
-for(let i = 0; i < dias.length; i++){
+const length = dias.length 
+for(let i = 0; i < length; i++){
     const kms = correr()
     totalKms += kms
     console.log(`el dia ${dias[i]} ${i} se corrio ${kms}`)
 }
+
+const promedioKms = totalKms / length
+console.log(`total recorrido por ${nombre} fueron ${promedioKms.toFixed(2)}`)
