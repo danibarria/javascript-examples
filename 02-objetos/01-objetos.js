@@ -8,7 +8,6 @@ const p2 = {
     y:0
 }
 
-
 function distancia(p1,p2){
     const x = p1.x - p2.x
     const y = p1.y - p2.y
