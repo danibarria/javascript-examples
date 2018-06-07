@@ -1,5 +1,5 @@
 // console.log("el area de un triangulo de base 5 y altura 7 es: " + (5*7)/2)
-//con estas comillas `` podemos aniadir evaluaciones con ${}
+// con estas comillas `` podemos aniadir evaluaciones con ${}
 // console.log(`El area de un triangulo de base 5 y altura 7 es: ${5*7/2}`)
 // let base =5
 // let height = 7
