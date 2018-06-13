@@ -26,7 +26,7 @@ function handleError(err){
 
 
 /*llamada al metodo */
-get('http://www.swapi.co/api/people/1/', function onResponse(err, luke){
+get('https://www.swapi.co/api/people/1/', function onResponse(err, luke){
 	if(err) return handleError(err)
 
 	/* Para traer el mundo */
